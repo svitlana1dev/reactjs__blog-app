@@ -1,0 +1,31 @@
+.Post {
+  margin-bottom: 16px;
+  padding: 16px;
+  position: relative;
+  border-radius: 5px;
+  background-color: "#fff";
+  box-shadow: 0px 1px 7px 0px #dcdcdc;
+}
+
+.Post__publish {
+  cursor: pointer;
+}
+
+.Post_subtitle {
+  font-size: 10px;
+  margin: 0;
+}
+
+.Post__buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.Post__delete-btn {
+  cursor: pointer;
+}
+
+.Post__header-container h4 {
+  font-size: 0.5rem;
+}
